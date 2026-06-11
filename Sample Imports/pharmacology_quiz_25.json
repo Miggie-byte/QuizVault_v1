@@ -1,0 +1,328 @@
+{
+  "title": "Pharmacology Midterm Review",
+  "description": "A comprehensive 25-item pharmacology quiz covering drug calculations, mechanisms of action, pharmacokinetics, and clinical situational analysis",
+  "category": "Health Sciences",
+  "difficulty": "Medium",
+  "quizType": "Mixed",
+  "timerMinutes": 45,
+  "questions": [
+    {
+      "questionText": "A physician orders Amoxicillin 500 mg PO every 8 hours. The pharmacy stocks 250 mg/5 mL suspension. Using the formula $$\\text{Volume} = \\frac{\\text{Desired Dose}}{\\text{Dose on Hand}} \\times \\text{Volume on Hand}$$ how many mL should be administered per dose?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$10 \\text{ mL}$", "isCorrect": true},
+        {"text": "$5 \\text{ mL}$", "isCorrect": false},
+        {"text": "$7.5 \\text{ mL}$", "isCorrect": false},
+        {"text": "$15 \\text{ mL}$", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A nurse is caring for a 68-year-old male with hypertension who is newly prescribed Lisinopril 10 mg daily. On day 3, the patient calls the clinic reporting a persistent dry cough. What is the most appropriate nursing action?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Instruct the patient to stop the medication immediately and visit the ER", "isCorrect": false},
+        {"text": "Document the symptom and notify the physician, as this is a known side effect of ACE inhibitors", "isCorrect": true},
+        {"text": "Reassure the patient that the cough will resolve on its own without intervention", "isCorrect": false},
+        {"text": "Advise the patient to double the dose to build tolerance", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Beta-blockers work by blocking beta-adrenergic receptors, thereby decreasing heart rate and blood pressure.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Using the Cockcroft-Gault equation for Creatinine Clearance: $$CrCl = \\frac{(140 - \\text{Age}) \\times \\text{Weight (kg)}}{72 \\times \\text{Serum Creatinine (mg/dL)}}$$ Calculate the CrCl for a 70-year-old male weighing 70 kg with a serum creatinine of 1.0 mg/dL.",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$\\approx 68 \\text{ mL/min}$", "isCorrect": true},
+        {"text": "$\\approx 55 \\text{ mL/min}$", "isCorrect": false},
+        {"text": "$\\approx 80 \\text{ mL/min}$", "isCorrect": false},
+        {"text": "$\\approx 45 \\text{ mL/min}$", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Review the drug comparison table below. Which drug class is associated with hyperkalemia as a side effect?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "ACE Inhibitors", "isCorrect": true},
+        {"text": "Thiazide Diuretics", "isCorrect": false},
+        {"text": "Calcium Channel Blockers", "isCorrect": false},
+        {"text": "Beta-Blockers", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Drug Class", "Example", "Primary Use", "Notable Side Effect"],
+        ["ACE Inhibitors", "Lisinopril", "Hypertension / HF", "Dry cough, Hyperkalemia"],
+        ["Thiazide Diuretics", "Hydrochlorothiazide", "Hypertension", "Hypokalemia, Hyperglycemia"],
+        ["Calcium Channel Blockers", "Amlodipine", "Hypertension / Angina", "Peripheral edema"],
+        ["Beta-Blockers", "Metoprolol", "Hypertension / Arrhythmia", "Bradycardia, Fatigue"]
+      ]
+    },
+    {
+      "questionText": "The therapeutic index is calculated as: $$TI = \\frac{TD_{50}}{ED_{50}}$$ A drug with a narrow therapeutic index requires more careful monitoring because the toxic dose is close to the effective dose.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A patient weighing 60 kg is prescribed Gentamicin at 5 mg/kg/day divided every 8 hours. The available concentration is 40 mg/2 mL. How many mL will the nurse administer per dose? $$\\text{Dose per administration} = \\frac{5 \\times 60}{3}$$",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "$5 \\text{ mL}$", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A 55-year-old woman with Type 2 Diabetes is admitted for a scheduled CT scan with contrast. She takes Metformin 1000 mg twice daily. What is the most appropriate action prior to the procedure?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Hold Metformin 48 hours before and after the contrast procedure to prevent lactic acidosis", "isCorrect": true},
+        {"text": "Double the Metformin dose to compensate for contrast-induced changes", "isCorrect": false},
+        {"text": "Administer Metformin as usual — no interaction with contrast dye exists", "isCorrect": false},
+        {"text": "Switch immediately to insulin before the procedure", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "First-pass metabolism refers to the phenomenon where a drug is metabolized in the liver before reaching systemic circulation, reducing its bioavailability.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Based on the pharmacokinetics table below, which drug has the longest half-life?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Amiodarone", "isCorrect": true},
+        {"text": "Aspirin", "isCorrect": false},
+        {"text": "Digoxin", "isCorrect": false},
+        {"text": "Warfarin", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Drug", "Half-Life", "Route", "Primary Elimination"],
+        ["Aspirin", "15–20 min", "PO / IV", "Hepatic"],
+        ["Warfarin", "36–42 hours", "PO", "Hepatic (CYP2C9)"],
+        ["Digoxin", "36–48 hours", "PO / IV", "Renal"],
+        ["Amiodarone", "40–55 days", "PO / IV", "Hepatic"]
+      ]
+    },
+    {
+      "questionText": "Half-life is the time required for the plasma concentration of a drug to decrease by half. Using $$t_{1/2} = \\frac{0.693}{k_e}$$ where $k_e$ is the elimination rate constant, a drug with $k_e = 0.0693 \\text{ hr}^{-1}$ has a half-life of _____ hours.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "$10$", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A 45-year-old male patient on Warfarin therapy presents with an INR of 5.8 (target range: 2.0–3.0). He has no active bleeding. What is the most appropriate management?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Hold Warfarin, administer Vitamin K orally, and recheck INR in 24–48 hours", "isCorrect": true},
+        {"text": "Continue Warfarin at the same dose and recheck INR next week", "isCorrect": false},
+        {"text": "Administer fresh frozen plasma immediately", "isCorrect": false},
+        {"text": "Double the Warfarin dose to recalibrate the INR", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Morphine and other opioids exert their analgesic effect primarily by binding to $\\mu$-opioid receptors in the central nervous system.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "An IV infusion of Dopamine is ordered at 5 mcg/kg/min for a patient weighing 80 kg. The solution available is Dopamine 400 mg in 250 mL D5W. Using: $$\\text{Rate (mL/hr)} = \\frac{\\text{Dose (mcg/kg/min)} \\times \\text{Weight (kg)} \\times 60}{\\text{Concentration (mcg/mL)}}$$ what is the infusion rate in mL/hr?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$15 \\text{ mL/hr}$", "isCorrect": true},
+        {"text": "$12 \\text{ mL/hr}$", "isCorrect": false},
+        {"text": "$20 \\text{ mL/hr}$", "isCorrect": false},
+        {"text": "$18 \\text{ mL/hr}$", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Review the antibiotic spectrum table. Which antibiotic is most appropriate for a confirmed MRSA infection?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Vancomycin", "isCorrect": true},
+        {"text": "Amoxicillin", "isCorrect": false},
+        {"text": "Ciprofloxacin", "isCorrect": false},
+        {"text": "Azithromycin", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Antibiotic", "Class", "Spectrum", "MRSA Coverage"],
+        ["Amoxicillin", "Penicillin", "Gram-positive, some Gram-negative", "No"],
+        ["Ciprofloxacin", "Fluoroquinolone", "Broad spectrum", "No"],
+        ["Azithromycin", "Macrolide", "Gram-positive, atypicals", "No"],
+        ["Vancomycin", "Glycopeptide", "Gram-positive", "Yes"],
+        ["Linezolid", "Oxazolidinone", "Gram-positive", "Yes"]
+      ]
+    },
+    {
+      "questionText": "A 30-year-old pregnant woman (28 weeks) is prescribed an antibiotic for a UTI. Which of the following is the SAFEST choice during pregnancy?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Nitrofurantoin", "isCorrect": true},
+        {"text": "Tetracycline", "isCorrect": false},
+        {"text": "Fluoroquinolones", "isCorrect": false},
+        {"text": "Trimethoprim", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Volume of distribution ($V_d$) is calculated as: $$V_d = \\frac{\\text{Total Amount of Drug in Body}}{\\text{Plasma Drug Concentration}}$$ A drug with a high $V_d$ indicates that more of the drug is distributed in tissues rather than plasma.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Using the loading dose formula: $$LD = \\frac{V_d \\times C_{\\text{target}}}{F}$$ A drug has $V_d = 30 \\text{ L}$, target concentration $C_{\\text{target}} = 10 \\text{ mg/L}$, and bioavailability $F = 1.0$. What is the loading dose?",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "$300 \\text{ mg}$", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A nurse administers Insulin Glargine to a patient. Two hours later, the patient becomes diaphoretic, tremulous, and confused with a blood glucose of 48 mg/dL. What is the priority intervention?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Administer 15–20 g of fast-acting carbohydrate orally if the patient can swallow safely", "isCorrect": true},
+        {"text": "Administer another dose of Insulin Glargine to stabilize glucose", "isCorrect": false},
+        {"text": "Obtain a 12-lead ECG immediately", "isCorrect": false},
+        {"text": "Place the patient in Trendelenburg position and monitor", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The _____ route of drug administration has 100% bioavailability because it bypasses first-pass metabolism entirely.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "intravenous (IV)", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Analyze the opioid analgesic comparison table below. Which drug requires the lowest dose to achieve equianalgesic effect compared to 10 mg of IV Morphine?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Fentanyl", "isCorrect": true},
+        {"text": "Codeine", "isCorrect": false},
+        {"text": "Oxycodone", "isCorrect": false},
+        {"text": "Tramadol", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Opioid", "Route", "Equianalgesic Dose", "Compared to IV Morphine 10 mg"],
+        ["Morphine", "IV", "10 mg", "Reference"],
+        ["Morphine", "PO", "30 mg", "3× higher PO dose needed"],
+        ["Oxycodone", "PO", "20 mg", "2× higher PO dose needed"],
+        ["Codeine", "PO", "200 mg", "20× higher PO dose needed"],
+        ["Fentanyl", "IV/IM", "0.1 mg (100 mcg)", "100× more potent"]
+      ]
+    },
+    {
+      "questionText": "A patient with chronic kidney disease (CrCl = 20 mL/min) is prescribed a renally-cleared antibiotic. Compared to a patient with normal renal function, the dose interval should generally be _____.",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Lengthened (increased dosing interval)", "isCorrect": true},
+        {"text": "Shortened (decreased dosing interval)", "isCorrect": false},
+        {"text": "Kept the same with no adjustment needed", "isCorrect": false},
+        {"text": "The drug should always be given IV instead of PO", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Digoxin toxicity is more likely when serum potassium levels are low because hypokalemia increases the binding affinity of Digoxin to $\\text{Na}^+/\\text{K}^+$-ATPase receptors.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A hospitalized patient is receiving IV Heparin. The aPTT result is 120 seconds (therapeutic range: 60–100 seconds). The patient has no signs of bleeding. Using the weight-based heparin protocol in the table below, what is the correct action?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Hold heparin for 1 hour, then reduce rate by 20%, recheck aPTT in 6 hours", "isCorrect": true},
+        {"text": "Increase the heparin infusion rate by 20%", "isCorrect": false},
+        {"text": "Administer Protamine Sulfate immediately", "isCorrect": false},
+        {"text": "Continue the infusion at the same rate and recheck aPTT in 24 hours", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["aPTT Result (seconds)", "Action"],
+        ["< 40", "Increase rate by 25%, recheck in 6 hours"],
+        ["40–59", "Increase rate by 10%, recheck in 6 hours"],
+        ["60–100", "No change (therapeutic range)"],
+        ["101–120", "Hold 1 hour, reduce rate by 20%, recheck in 6 hours"],
+        ["> 120", "Hold 2 hours, reduce rate by 30%, notify physician, recheck in 6 hours"]
+      ]
+    },
+    {
+      "questionText": "Clearance ($CL$) of a drug is defined as: $$CL = k_e \\times V_d$$ where $k_e$ is the elimination rate constant and $V_d$ is the volume of distribution. A drug with $k_e = 0.1 \\text{ hr}^{-1}$ and $V_d = 50 \\text{ L}$ has a clearance of _____ L/hr.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "$5$", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A 72-year-old woman is brought to the ED confused and bradycardic (HR = 42 bpm). Her medication list includes Metoprolol 100 mg twice daily, Amlodipine 10 mg daily, and Digoxin 0.25 mg daily. Her serum Digoxin level is 3.8 ng/mL (therapeutic: 0.5–2.0 ng/mL). Which of the following is the most appropriate immediate intervention?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Administer Digoxin-specific antibody fragments (Digibind/DigiFab)", "isCorrect": true},
+        {"text": "Give an additional dose of Metoprolol to control heart rate", "isCorrect": false},
+        {"text": "Start a Dopamine infusion at high doses immediately", "isCorrect": false},
+        {"text": "Administer Atropine 0.5 mg and discharge with close follow-up", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    }
+  ]
+}

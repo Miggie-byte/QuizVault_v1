@@ -1,0 +1,309 @@
+{
+  "title": "Philippine Constitution & Political Science Review",
+  "description": "A comprehensive 25-item quiz covering the 1987 Philippine Constitution, branches of government, civil liberties, electoral systems, and political theory with situational analysis and data interpretation",
+  "category": "Political Science & Law",
+  "difficulty": "Medium",
+  "quizType": "Mixed",
+  "timerMinutes": 45,
+  "questions": [
+    {
+      "questionText": "The 1987 Philippine Constitution was ratified on February 2, 1987 through a plebiscite, replacing the 1973 Constitution.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A barangay captain is running for congressman in the upcoming elections. He files his Certificate of Candidacy (COC) six months before election day. Under Article VI of the 1987 Constitution, which of the following is true regarding his eligibility?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "He is eligible as long as he resigns from his barangay post before election day", "isCorrect": false},
+        {"text": "He is eligible because local officials are exempt from the restriction on candidacy", "isCorrect": false},
+        {"text": "He is considered resigned from his barangay position upon filing of his COC under the Omnibus Election Code", "isCorrect": true},
+        {"text": "He must wait for the end of his term before filing a COC for a higher position", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Under the 1987 Constitution, the President of the Philippines serves a term of _____ years and is _____ for reelection.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "6 years; ineligible", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Review the composition of the Philippine Legislature table. Under the party-list system, how many seats are reserved for party-list representatives in the House of Representatives?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "20% of the total membership of the House", "isCorrect": true},
+        {"text": "25% of the total membership of the House", "isCorrect": false},
+        {"text": "1/3 of the total membership of the House", "isCorrect": false},
+        {"text": "A fixed number of 60 seats", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Chamber", "Members", "Term", "Reelection Limit", "Minimum Age"],
+        ["Senate", "24", "6 years", "2 consecutive terms", "35 years old"],
+        ["House of Representatives (District)", "~253+", "3 years", "3 consecutive terms", "25 years old"],
+        ["House of Representatives (Party-list)", "20% of total House seats", "3 years", "3 consecutive terms", "25 years old"]
+      ]
+    },
+    {
+      "questionText": "In political science, Montesquieu's doctrine of separation of powers divides government into three branches. Which of the following correctly maps the three branches in the Philippine government?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Executive – President; Legislative – Congress; Judicial – Supreme Court", "isCorrect": true},
+        {"text": "Executive – Senate; Legislative – President; Judicial – COMELEC", "isCorrect": false},
+        {"text": "Executive – Congress; Legislative – Cabinet; Judicial – Ombudsman", "isCorrect": false},
+        {"text": "Executive – President; Legislative – Supreme Court; Judicial – Congress", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A senator was convicted by the Sandiganbayan for plunder, a heinous crime. Under Article XI of the 1987 Constitution on Accountability of Public Officers, which statement is correct?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "The senator shall be removed from office and disqualified from holding any public office", "isCorrect": true},
+        {"text": "The senator retains the position until impeached separately by the House", "isCorrect": false},
+        {"text": "The senator may appeal to the President for executive clemency before removal", "isCorrect": false},
+        {"text": "The senator forfeits pay but may complete the remaining term", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The writ of habeas corpus may be suspended by the President in cases of invasion or rebellion when public safety requires it, but Congress may revoke such suspension by a vote of at least _____ of all its members voting jointly.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "majority", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Under Article VII of the 1987 Constitution, the President may declare martial law for a period not exceeding 60 days. Martial law automatically extends for another 60 days unless lifted by Congress.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": false},
+        {"text": "False", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A political scientist is analyzing seat distribution after a national election. The party-list formula used by COMELEC follows the Panganiban Formula derived from Banat v. COMELEC. Using the principle that the total party-list seats must not exceed 20% of the total House membership, if the total House has 300 seats, the maximum number of party-list seats is: $$\\text{Party-list seats} = \\frac{20}{100} \\times 300$$",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "60 seats", "isCorrect": true},
+        {"text": "75 seats", "isCorrect": false},
+        {"text": "50 seats", "isCorrect": false},
+        {"text": "100 seats", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Review the table of Constitutional Commissions. Which commission is primarily responsible for conducting elections in the Philippines?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Commission on Elections (COMELEC)", "isCorrect": true},
+        {"text": "Commission on Audit (COA)", "isCorrect": false},
+        {"text": "Civil Service Commission (CSC)", "isCorrect": false},
+        {"text": "Office of the Ombudsman", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Constitutional Commission", "Function", "Members", "Term"],
+        ["Commission on Elections (COMELEC)", "Enforces election laws, conducts elections", "1 Chairman + 6 Commissioners", "7 years, no reappointment"],
+        ["Commission on Audit (COA)", "Audits government funds and expenditures", "1 Chairman + 2 Commissioners", "7 years, no reappointment"],
+        ["Civil Service Commission (CSC)", "Oversees civil service and public employees", "1 Chairman + 2 Commissioners", "7 years, no reappointment"]
+      ]
+    },
+    {
+      "questionText": "Under the 1987 Constitution, the Bill of Rights is found in _____ of the Constitution.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Article III", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A citizen is arrested without a warrant during a warrantless arrest in flagrante delicto. He demands to know the charges and be provided with counsel. Under Section 12, Article III of the 1987 Constitution (Rights of the Accused), which of the following rights is MOST directly applicable?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Right to remain silent and to have competent and independent counsel, preferably of his own choice", "isCorrect": true},
+        {"text": "Right to bail in all criminal cases without exception", "isCorrect": false},
+        {"text": "Right to be released immediately as the arrest was warrantless", "isCorrect": false},
+        {"text": "Right to trial by jury as provided under the Bill of Rights", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The principle of checks and balances means that each branch of government has the power to limit or control the actions of the other branches.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "In computing voter turnout as a percentage of registered voters, the formula is: $$\\text{Voter Turnout (\\%)} = \\frac{\\text{Total Votes Cast}}{\\text{Total Registered Voters}} \\times 100$$ In a barangay election, 3,450 out of 5,000 registered voters cast their ballots. What is the voter turnout percentage?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "69%", "isCorrect": true},
+        {"text": "65%", "isCorrect": false},
+        {"text": "72%", "isCorrect": false},
+        {"text": "75%", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A newly-elected mayor wants to pass a local ordinance banning a specific religious group from conducting worship activities in public parks. Under Article III, Section 5 of the 1987 Constitution, this ordinance is:",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Unconstitutional — it violates the free exercise clause and non-establishment of religion", "isCorrect": true},
+        {"text": "Constitutional — local government units have police power over public spaces", "isCorrect": false},
+        {"text": "Valid only if approved by COMELEC and the Sangguniang Panlalawigan", "isCorrect": false},
+        {"text": "Constitutional because public parks are government property", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Review the comparison of Philippine Constitutions below. Which constitution is associated with the Marcos dictatorship?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "1973 Constitution", "isCorrect": true},
+        {"text": "1935 Constitution", "isCorrect": false},
+        {"text": "1987 Constitution", "isCorrect": false},
+        {"text": "1899 Malolos Constitution", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Constitution", "Year Ratified", "Context", "Key Feature"],
+        ["Malolos Constitution", "1899", "First Philippine Republic", "First democratic constitution in Asia"],
+        ["1935 Constitution", "1935", "Commonwealth Period (American era)", "Established bicameral legislature, set path to independence"],
+        ["1973 Constitution", "1973", "Marcos Martial Law Era", "Shifted to parliamentary system; extended executive power"],
+        ["1986 Freedom Constitution", "1986", "Post-EDSA Revolution (Aquino)", "Transitional constitution after People Power Revolution"],
+        ["1987 Constitution", "1987", "Restored democracy", "Restored presidential system; strong Bill of Rights"]
+      ]
+    },
+    {
+      "questionText": "The Supreme Court of the Philippines is composed of a Chief Justice and _____ Associate Justices.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "14", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A political analyst computes the Effective Number of Parties (ENP) using the Laakso-Taagepera index: $$ENP = \\frac{1}{\\sum_{i=1}^{n} p_i^2}$$ where $p_i$ is the seat share of party $i$. If three parties hold seat shares of 0.50, 0.30, and 0.20 respectively, the ENP is approximately _____ (round to two decimal places).",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "2.63", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Under the Local Government Code (RA 7160), the principle of local autonomy means that local government units (LGUs) are completely independent of the national government and not subject to any national supervision.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": false},
+        {"text": "False", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A city councilor files a resolution proposing that the city's annual budget allocate at least 20% to infrastructure. Under the 1987 Constitution and the Local Government Code, the annual budget of an LGU must allocate at least _____ of its Internal Revenue Allotment (IRA) to development fund projects.",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "20%", "isCorrect": true},
+        {"text": "10%", "isCorrect": false},
+        {"text": "15%", "isCorrect": false},
+        {"text": "25%", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The power of judicial review — the authority of the Supreme Court to declare laws or acts unconstitutional — is explicitly stated in the 1987 Constitution.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "An election analyst calculates the margin of victory using: $$\\text{Margin (\\%)} = \\frac{\\text{Winning Votes} - \\text{Runner-up Votes}}{\\text{Total Votes Cast}} \\times 100$$ In a senatorial race, Candidate A receives 18,500,000 votes and Candidate B receives 15,200,000 votes out of 40,000,000 total votes cast. What is the margin of victory?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "8.25%", "isCorrect": true},
+        {"text": "10.00%", "isCorrect": false},
+        {"text": "6.50%", "isCorrect": false},
+        {"text": "9.75%", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A congressman introduces a bill raising the income tax rate for the highest bracket. Under Article VI of the 1987 Constitution, all appropriation, revenue, and tariff bills must originate exclusively from the:",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "House of Representatives", "isCorrect": true},
+        {"text": "Senate", "isCorrect": false},
+        {"text": "Office of the President", "isCorrect": false},
+        {"text": "Department of Finance", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Review the comparison of political ideologies below. Which ideology most closely aligns with the principle that the state should own the means of production for collective benefit?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Socialism", "isCorrect": true},
+        {"text": "Liberalism", "isCorrect": false},
+        {"text": "Conservatism", "isCorrect": false},
+        {"text": "Libertarianism", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Ideology", "Core Belief", "Role of State", "Economic View"],
+        ["Liberalism", "Individual rights and freedoms", "Minimal interference", "Free market with regulation"],
+        ["Conservatism", "Traditional values and institutions", "Preserve social order", "Market economy, limited change"],
+        ["Socialism", "Collective ownership and equality", "Strong state intervention", "State or community controls production"],
+        ["Libertarianism", "Maximum individual freedom", "Very minimal state", "Free market, no state interference"],
+        ["Fascism", "Ultranationalism, authoritarian rule", "Total state control", "State-directed economy"]
+      ]
+    },
+    {
+      "questionText": "A governor declares a state of calamity in the province after a major typhoon. Funds are to be released from the local calamity fund. Under the Local Government Code, what percentage of the estimated revenue from regular sources must be appropriated as the annual Local Disaster Risk Reduction and Management (LDRRM) Fund?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "5%", "isCorrect": true},
+        {"text": "2%", "isCorrect": false},
+        {"text": "10%", "isCorrect": false},
+        {"text": "7%", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    }
+  ]
+}

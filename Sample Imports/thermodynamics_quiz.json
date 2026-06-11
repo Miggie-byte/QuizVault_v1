@@ -1,0 +1,311 @@
+{
+  "title": "Thermodynamics Quiz",
+  "description": "A 25-item mixed quiz covering the fundamental principles of thermodynamics, including laws, equations, real-world applications, and problem-solving scenarios. Difficulty increases progressively from basic recall to complex analysis.",
+  "category": "General",
+  "difficulty": "Medium",
+  "quizType": "Mixed",
+  "timerMinutes": 35,
+  "questions": [
+    {
+      "questionText": "Which law of thermodynamics states that energy cannot be created or destroyed, only converted from one form to another?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "First Law of Thermodynamics", "isCorrect": true},
+        {"text": "Second Law of Thermodynamics", "isCorrect": false},
+        {"text": "Zeroth Law of Thermodynamics", "isCorrect": false},
+        {"text": "Third Law of Thermodynamics", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The Zeroth Law of Thermodynamics establishes the concept of _____.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "thermal equilibrium", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "True or False: Heat naturally flows from a region of lower temperature to a region of higher temperature.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": false},
+        {"text": "False", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Which of the following is the correct SI unit of temperature used in thermodynamic equations?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Kelvin (K)", "isCorrect": true},
+        {"text": "Celsius (\u00b0C)", "isCorrect": false},
+        {"text": "Fahrenheit (\u00b0F)", "isCorrect": false},
+        {"text": "Rankine (R)", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The _____ is defined as the total internal energy of a thermodynamic system plus the product of its pressure and volume.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "enthalpy", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "True or False: An adiabatic process is one in which no heat is exchanged between the system and its surroundings.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The First Law of Thermodynamics is expressed mathematically as $\\Delta U = Q - W$. In this equation, what does $W$ represent?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Work done by the system", "isCorrect": true},
+        {"text": "Work done on the system", "isCorrect": false},
+        {"text": "Heat transferred to the system", "isCorrect": false},
+        {"text": "Internal energy of the system", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A thermodynamic process occurs at constant pressure. This type of process is called _____.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "isobaric", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "You place a metal spoon in a hot cup of coffee. After a few minutes, the spoon feels warm. Which thermodynamic concept best explains this observation?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Thermal equilibrium via heat conduction", "isCorrect": true},
+        {"text": "Adiabatic expansion of the spoon", "isCorrect": false},
+        {"text": "Increase in entropy of the spoon only", "isCorrect": false},
+        {"text": "Conservation of enthalpy", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "True or False: In an isothermal process, the internal energy of an ideal gas remains constant.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Using the ideal gas law $PV = nRT$, if the temperature of a fixed amount of gas doubles while the volume remains constant, what happens to the pressure?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "It doubles", "isCorrect": true},
+        {"text": "It halves", "isCorrect": false},
+        {"text": "It remains the same", "isCorrect": false},
+        {"text": "It quadruples", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The _____ law of thermodynamics states that the entropy of a perfect crystal at absolute zero temperature is exactly zero.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "third", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Refer to the table below. A student records data for four thermodynamic processes. Which process has the highest work done by the gas, assuming all involve ideal gases?\n\nUse the relation $W = P \\Delta V$ for isobaric processes.",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Process D", "isCorrect": true},
+        {"text": "Process A", "isCorrect": false},
+        {"text": "Process B", "isCorrect": false},
+        {"text": "Process C", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Process", "Pressure P (kPa)", "Initial Volume V\u2081 (L)", "Final Volume V\u2082 (L)"],
+        ["A", "100", "2.0", "4.0"],
+        ["B", "150", "1.0", "2.5"],
+        ["C", "200", "1.5", "2.5"],
+        ["D", "250", "1.0", "3.0"]
+      ]
+    },
+    {
+      "questionText": "True or False: Entropy of an isolated system can decrease spontaneously according to the Second Law of Thermodynamics.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": false},
+        {"text": "False", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A refrigerator removes 500 J of heat from a cold reservoir and expels 750 J to the hot reservoir. What is the work input $W$ to the refrigerator?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$W = 250 \\ \\text{J}$", "isCorrect": true},
+        {"text": "$W = 500 \\ \\text{J}$", "isCorrect": false},
+        {"text": "$W = 750 \\ \\text{J}$", "isCorrect": false},
+        {"text": "$W = 1250 \\ \\text{J}$", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The _____ efficiency is the maximum possible efficiency of a heat engine operating between two thermal reservoirs.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Carnot", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "An engineer is designing a heat engine that operates between a hot reservoir at $T_H = 600 \\ \\text{K}$ and a cold reservoir at $T_C = 300 \\ \\text{K}$. Using the Carnot efficiency formula $$\\eta = 1 - \\frac{T_C}{T_H}$$ what is the maximum thermal efficiency of this engine?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "50%", "isCorrect": true},
+        {"text": "25%", "isCorrect": false},
+        {"text": "75%", "isCorrect": false},
+        {"text": "100%", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A sealed piston-cylinder device contains an ideal gas. The gas is compressed isothermally. Based on the data below, which state has the lowest entropy relative to the others?\n\nAssume entropy change for isothermal compression: $\\Delta S = nR \\ln\\left(\\frac{V_f}{V_i}\\right)$",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "State D", "isCorrect": true},
+        {"text": "State A", "isCorrect": false},
+        {"text": "State B", "isCorrect": false},
+        {"text": "State C", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["State", "Initial Volume V\u1d62 (L)", "Final Volume Vf (L)", "n (mol)"],
+        ["A", "4.0", "2.0", "1"],
+        ["B", "6.0", "3.0", "1"],
+        ["C", "8.0", "4.0", "1"],
+        ["D", "10.0", "2.0", "1"]
+      ]
+    },
+    {
+      "questionText": "True or False: The Gibbs free energy change $\\Delta G < 0$ indicates that a process is spontaneous at constant temperature and pressure.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The _____ cycle consists of two isothermal and two adiabatic processes and represents the most efficient theoretical heat engine cycle.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Carnot", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A steam power plant operates as follows: steam enters the turbine at high pressure and temperature, expands to do work, and is then condensed and pumped back. An engineer notices the actual efficiency is far below the Carnot efficiency. Which of the following is the MOST thermodynamically accurate explanation?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Irreversibilities such as friction, heat losses, and non-quasi-static processes increase entropy generation", "isCorrect": true},
+        {"text": "The Second Law is violated in real engines, reducing efficiency", "isCorrect": false},
+        {"text": "The working fluid's enthalpy does not change during expansion", "isCorrect": false},
+        {"text": "The condenser absorbs heat from the surroundings, reducing work output", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "For an ideal gas undergoing a reversible adiabatic process, the relationship between pressure and volume is given by $$PV^{\\gamma} = \\text{constant}$$ where $\\gamma = C_p / C_v$. If $\\gamma = 1.4$ and the initial state is $P_1 = 200 \\ \\text{kPa}$, $V_1 = 0.1 \\ \\text{m}^3$, what is the value of $P_1 V_1^{\\gamma}$?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$200 \\times (0.1)^{1.4} \\ \\text{kPa\u00b7m}^{4.2}$", "isCorrect": true},
+        {"text": "$200 \\times (0.1)^{0.4} \\ \\text{kPa\u00b7m}^{1.4}$", "isCorrect": false},
+        {"text": "$200 \\times (0.1) \\ \\text{kPa\u00b7m}^{3}$", "isCorrect": false},
+        {"text": "$200 / (0.1)^{1.4} \\ \\text{kPa\u00b7m}^{4.2}$", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The _____ function, defined as $A = U - TS$, represents the maximum work obtainable from a closed system at constant temperature and volume.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Helmholtz free energy", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A chemical engineer is evaluating four reactions at 298 K. Using the thermodynamic data below, which reaction is both spontaneous and exothermic?\n\nRecall: $\\Delta G = \\Delta H - T\\Delta S$; spontaneous if $\\Delta G < 0$; exothermic if $\\Delta H < 0$.",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Reaction B", "isCorrect": true},
+        {"text": "Reaction A", "isCorrect": false},
+        {"text": "Reaction C", "isCorrect": false},
+        {"text": "Reaction D", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Reaction", "\u0394H (kJ/mol)", "\u0394S (J/mol\u00b7K)", "\u0394G at 298 K (kJ/mol)"],
+        ["A", "+50", "+200", "-9.6"],
+        ["B", "-80", "+100", "-109.8"],
+        ["C", "-30", "-150", "+14.7"],
+        ["D", "+20", "-50", "+34.9"]
+      ]
+    },
+    {
+      "questionText": "True or False: For a reversible process, the total entropy change of the universe (system + surroundings) is zero.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A piston-cylinder assembly undergoes a polytropic process described by $PV^n = C$. A thermodynamics student measures the following states and must determine the polytropic index $n$ using $$n = \\frac{\\ln(P_2/P_1)}{\\ln(V_1/V_2)}$$. Based on the table below, what is the correct value of $n$?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$n = 1.4$", "isCorrect": true},
+        {"text": "$n = 1.0$", "isCorrect": false},
+        {"text": "$n = 0.4$", "isCorrect": false},
+        {"text": "$n = 2.0$", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["State", "Pressure P (kPa)", "Volume V (m\u00b3)"],
+        ["State 1", "100", "0.5"],
+        ["State 2", "263.9", "0.25"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "title": "Quantum Mechanics Advanced Quiz",
+  "description": "A rigorous 25-item quiz covering quantum principles, wave mechanics, operators, uncertainty, and modern applications — with math expressions, data tables, and situational analysis.",
+  "category": "Physics",
+  "difficulty": "Hard",
+  "quizType": "Mixed",
+  "timerMinutes": 60,
+  "questions": [
+    {
+      "questionText": "The de Broglie wavelength of a particle is given by $$\\lambda = \\frac{h}{p}$$ where $h$ is Planck's constant and $p$ is momentum. What is the de Broglie wavelength of an electron moving at $2 \\times 10^6$ m/s? (Use $m_e = 9.11 \\times 10^{-31}$ kg, $h = 6.626 \\times 10^{-34}$ J·s)",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$3.64 \\times 10^{-10}$ m", "isCorrect": true},
+        {"text": "$1.82 \\times 10^{-10}$ m", "isCorrect": false},
+        {"text": "$7.28 \\times 10^{-10}$ m", "isCorrect": false},
+        {"text": "$9.11 \\times 10^{-11}$ m", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The wave function $\\Psi$ of a quantum system must be normalizable, meaning $$\\int_{-\\infty}^{\\infty} |\\Psi(x,t)|^2 \\, dx = 1$$. This condition ensures that the total probability of finding the particle somewhere in space is 1.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The _____ principle states that the more precisely the position of a particle is known, the less precisely its momentum can be known, and vice versa.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Heisenberg Uncertainty", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "In the photoelectric effect, Einstein showed that the maximum kinetic energy of ejected electrons is $$KE_{max} = hf - \\phi$$ where $\\phi$ is the work function. A metal has a work function of 2.3 eV. What is the minimum frequency of light required to eject electrons? (Use $h = 4.136 \\times 10^{-15}$ eV·s)",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$5.56 \\times 10^{14}$ Hz", "isCorrect": true},
+        {"text": "$3.84 \\times 10^{14}$ Hz", "isCorrect": false},
+        {"text": "$7.20 \\times 10^{14}$ Hz", "isCorrect": false},
+        {"text": "$2.30 \\times 10^{14}$ Hz", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The _____ equation is the fundamental wave equation of non-relativistic quantum mechanics, describing how the quantum state of a system evolves over time.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Schrödinger", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A researcher measures the spin of an electron along the z-axis and obtains $+\\hbar/2$. She immediately measures the spin along the x-axis. What is the probability of obtaining $+\\hbar/2$ along the x-axis?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$\\frac{1}{2}$", "isCorrect": true},
+        {"text": "$1$", "isCorrect": false},
+        {"text": "$0$", "isCorrect": false},
+        {"text": "$\\frac{\\sqrt{2}}{2}$", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The time-independent Schrödinger equation for a particle in a 1D infinite potential well of width $L$ gives quantized energy levels $$E_n = \\frac{n^2 \\pi^2 \\hbar^2}{2mL^2}$$. The ground state energy ($n=1$) is always _____.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "greater than zero (non-zero)", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Refer to the table of quantum numbers below. Which combination of quantum numbers is NOT physically allowed?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$n=2, l=2, m_l=0, m_s=+\\frac{1}{2}$", "isCorrect": true},
+        {"text": "$n=3, l=2, m_l=-1, m_s=-\\frac{1}{2}$", "isCorrect": false},
+        {"text": "$n=4, l=0, m_l=0, m_s=+\\frac{1}{2}$", "isCorrect": false},
+        {"text": "$n=2, l=1, m_l=1, m_s=-\\frac{1}{2}$", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Quantum Number", "Symbol", "Allowed Values", "Physical Meaning"],
+        ["Principal", "$n$", "$1, 2, 3, ...$", "Energy level / shell"],
+        ["Azimuthal", "$l$", "$0$ to $n-1$", "Orbital shape / subshell"],
+        ["Magnetic", "$m_l$", "$-l$ to $+l$", "Orbital orientation"],
+        ["Spin", "$m_s$", "$+\\frac{1}{2}$ or $-\\frac{1}{2}$", "Intrinsic spin direction"]
+      ]
+    },
+    {
+      "questionText": "In quantum mechanics, two operators $\\hat{A}$ and $\\hat{B}$ are said to commute if $[\\hat{A}, \\hat{B}] = \\hat{A}\\hat{B} - \\hat{B}\\hat{A} = 0$. If two observables commute, they can be simultaneously measured with arbitrary precision.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The position-momentum commutation relation is $[\\hat{x}, \\hat{p}] = $ _____.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "$i\\hbar$", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A quantum dot is modeled as a 3D infinite potential well with equal side length $L = 5$ nm. An engineer wants to design the dot so that the ground state energy of a confined electron exceeds 0.1 eV. Using $E_1 = \\frac{3\\pi^2\\hbar^2}{2m_e L^2}$, which conclusion is correct? (Use $\\hbar = 1.055 \\times 10^{-34}$ J·s, $m_e = 9.11 \\times 10^{-31}$ kg, $1$ eV $= 1.6 \\times 10^{-19}$ J)",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "The $L = 5$ nm dot has $E_1 \\approx 0.113$ eV, which satisfies the requirement", "isCorrect": true},
+        {"text": "The $L = 5$ nm dot has $E_1 \\approx 0.045$ eV, which does not satisfy the requirement", "isCorrect": false},
+        {"text": "The $L = 5$ nm dot has $E_1 \\approx 0.226$ eV, which exceeds double the requirement", "isCorrect": false},
+        {"text": "Ground state energy in a 3D box is always zero by definition", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The Pauli Exclusion Principle states that no two _____ in the same atom can have the same set of four quantum numbers.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "fermions (electrons)", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The Heisenberg Uncertainty Principle applies only to macroscopic objects and has no practical consequence at the atomic scale.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": false},
+        {"text": "False", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Refer to the comparison of quantum mechanical models below. Which model first introduced the concept of quantized angular momentum for the electron?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Bohr Model", "isCorrect": true},
+        {"text": "Schrödinger Wave Model", "isCorrect": false},
+        {"text": "Rutherford Model", "isCorrect": false},
+        {"text": "Thomson Plum Pudding Model", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Model", "Proposed By", "Key Feature", "Limitation"],
+        ["Plum Pudding", "Thomson (1904)", "Electrons embedded in positive charge", "Could not explain spectral lines"],
+        ["Nuclear Model", "Rutherford (1911)", "Dense positive nucleus, electrons orbit", "Could not explain stability or spectra"],
+        ["Bohr Model", "Bohr (1913)", "Quantized electron orbits, $L = n\\hbar$", "Only accurate for hydrogen"],
+        ["Wave / Orbital Model", "Schrödinger (1926)", "Electron probability clouds, orbitals", "Non-relativistic; no spin naturally"]
+      ]
+    },
+    {
+      "questionText": "A particle of mass $m$ is confined to a 1D harmonic oscillator potential $V = \\frac{1}{2}m\\omega^2 x^2$. The energy eigenvalues are $$E_n = \\left(n + \\frac{1}{2}\\right)\\hbar\\omega, \\quad n = 0, 1, 2, ...$$ The zero-point energy (ground state, $n=0$) of the oscillator is _____.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "$\\frac{1}{2}\\hbar\\omega$", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A physicist is designing a scanning tunneling microscope (STM). The tunneling current depends exponentially on the barrier width $d$ as $I \\propto e^{-2\\kappa d}$ where $\\kappa = \\sqrt{2m(V_0 - E)}/\\hbar$. If the barrier width increases by 0.1 nm and $\\kappa = 10$ nm$^{-1}$, by approximately what factor does the tunneling current decrease?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$e^{2} \\approx 7.39$", "isCorrect": true},
+        {"text": "$e^{1} \\approx 2.72$", "isCorrect": false},
+        {"text": "$e^{0.1} \\approx 1.11$", "isCorrect": false},
+        {"text": "$e^{20} \\approx 4.85 \\times 10^8$", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "In Dirac notation, the expectation value of an observable $\\hat{A}$ in state $|\\psi\\rangle$ is written as $\\langle \\hat{A} \\rangle = \\langle \\psi | \\hat{A} | \\psi \\rangle$.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The _____ interpretation of quantum mechanics, proposed by Niels Bohr and Werner Heisenberg, holds that a quantum system does not have definite properties until a measurement is made.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Copenhagen", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Refer to the table of atomic spectral series for hydrogen below. A photon is emitted when an electron transitions from $n=4$ to $n=2$. Using the Rydberg formula $$\\frac{1}{\\lambda} = R_H \\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)$$ with $R_H = 1.097 \\times 10^7$ m$^{-1}$, which spectral series does this emission belong to, and what is the approximate wavelength?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Balmer series; $\\lambda \\approx 486$ nm (visible blue-green)", "isCorrect": true},
+        {"text": "Lyman series; $\\lambda \\approx 122$ nm (ultraviolet)", "isCorrect": false},
+        {"text": "Paschen series; $\\lambda \\approx 1875$ nm (infrared)", "isCorrect": false},
+        {"text": "Brackett series; $\\lambda \\approx 2625$ nm (infrared)", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Series", "Lower Level ($n_1$)", "Upper Levels ($n_2$)", "Spectral Region"],
+        ["Lyman", "$1$", "$2, 3, 4, ...$", "Ultraviolet"],
+        ["Balmer", "$2$", "$3, 4, 5, ...$", "Visible / near UV"],
+        ["Paschen", "$3$", "$4, 5, 6, ...$", "Near Infrared"],
+        ["Brackett", "$4$", "$5, 6, 7, ...$", "Mid Infrared"],
+        ["Pfund", "$5$", "$6, 7, 8, ...$", "Far Infrared"]
+      ]
+    },
+    {
+      "questionText": "A quantum cryptography engineer is using the BB84 protocol. Alice sends a photon polarized at $45°$ using the diagonal basis. Bob measures it using the rectilinear basis ($0°/90°$). What is the probability that Bob gets the correct bit value?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$\\frac{1}{2}$", "isCorrect": true},
+        {"text": "$1$", "isCorrect": false},
+        {"text": "$0$", "isCorrect": false},
+        {"text": "$\\frac{1}{\\sqrt{2}}$", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The _____ states that the total wave function of a system of identical fermions must be antisymmetric under the exchange of any two particles, while the total wave function of identical bosons must be symmetric.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "spin-statistics theorem", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Two entangled electrons are prepared in the singlet state $$|\\Psi^-\\rangle = \\frac{1}{\\sqrt{2}}\\left(|\\uparrow\\downarrow\\rangle - |\\downarrow\\uparrow\\rangle\\right)$$ Electron A is sent to Alice and electron B to Bob, separated by 1000 km. Alice measures spin-up along the z-axis. What can Bob immediately conclude about his electron's spin along the z-axis?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Bob's electron is spin-down along z, with certainty, due to entanglement — but no information is transmitted faster than light", "isCorrect": true},
+        {"text": "Bob's electron collapses to spin-up as well, since they were prepared identically", "isCorrect": false},
+        {"text": "Bob's measurement outcome is completely independent of Alice's, with 50/50 probability either way", "isCorrect": false},
+        {"text": "The wave function collapses only when Bob also makes a measurement, not before", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "In perturbation theory, the first-order energy correction to state $|n^{(0)}\\rangle$ due to a perturbation $\\hat{H}'$ is given by $E_n^{(1)} = $ _____.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "$\\langle n^{(0)} | \\hat{H}' | n^{(0)} \\rangle$", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Refer to the table comparing quantum computing gate fidelities below. A quantum computing team is benchmarking their system. They observe that their two-qubit CNOT gate has a fidelity of 98.5%. Given the error threshold for fault-tolerant quantum computing (surface code) is approximately 99%, which conclusion is most accurate?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "The CNOT gate is below the fault-tolerance threshold; error correction alone cannot compensate for this error rate reliably", "isCorrect": true},
+        {"text": "98.5% fidelity is sufficient for fault-tolerant operation since it is above 95%", "isCorrect": false},
+        {"text": "Gate fidelity is irrelevant to fault tolerance; only qubit coherence time matters", "isCorrect": false},
+        {"text": "The system can achieve fault tolerance by simply increasing the number of qubits without improving gate fidelity", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Gate Type", "Typical Fidelity (Superconducting)", "Fault-Tolerance Threshold", "Status"],
+        ["Single-qubit (X, H, Z)", "99.5% – 99.9%", "~99%", "Above threshold"],
+        ["Two-qubit CNOT", "98.5% – 99.5%", "~99%", "Borderline / at risk"],
+        ["Measurement (readout)", "98% – 99.5%", "~99%", "Borderline"],
+        ["T gate (non-Clifford)", "99.0% – 99.7%", "~99%", "At or above threshold"]
+      ]
+    },
+    {
+      "questionText": "The _____ of a quantum state $|\\psi\\rangle = \\alpha|0\\rangle + \\beta|1\\rangle$ is fully described by the constraint $|\\alpha|^2 + |\\beta|^2 = 1$, and geometrically represented on the Bloch sphere.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "superposition", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    }
+  ]
+}

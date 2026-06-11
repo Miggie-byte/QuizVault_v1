@@ -1,0 +1,543 @@
+{
+    "title": "Machine Learning: Neural Networks Mastery",
+    "description": "A comprehensive, high-difficulty quiz covering deep learning concepts, mathematical foundations, and practical scenarios.",
+    "category": "Machine Learning",
+    "difficulty": "Hard",
+    "quizType": "Mixed",
+    "timerMinutes": 45,
+    "questions": [
+        {
+            "questionText": "A multi-layer perceptron (MLP) with hidden layers using linear activation functions can approximate any continuous, non-linear function.",
+            "questionType": "True or False",
+            "options": [
+                {
+                    "text": "True",
+                    "isCorrect": false
+                },
+                {
+                    "text": "False",
+                    "isCorrect": true
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "The _____ vanishing problem occurs during backpropagation when gradients become vanishingly small, preventing the weights from changing their value.",
+            "questionType": "Fill in the Blanks",
+            "options": [
+                {
+                    "text": "gradient",
+                    "isCorrect": true
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "Which of the following equations represents the standard Rectified Linear Unit (ReLU) activation function?",
+            "questionType": "Multiple Choice",
+            "options": [
+                {
+                    "text": "$f(x) = \\max(0, x)$",
+                    "isCorrect": true
+                },
+                {
+                    "text": "$f(x) = \\frac{1}{1 + e^{-x}}$",
+                    "isCorrect": false
+                },
+                {
+                    "text": "$f(x) = \\tanh(x)$",
+                    "isCorrect": false
+                },
+                {
+                    "text": "$f(x) = \\ln(1 + e^x)$",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "In convolutional neural networks, _____ layers are typically used to reduce the spatial dimensions of the feature maps, thus reducing the number of parameters and computation in the network.",
+            "questionType": "Fill in the Blanks",
+            "options": [
+                {
+                    "text": "pooling",
+                    "isCorrect": true
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "You are training a deep neural network for medical image classification. After 50 epochs, you notice that the training loss continues to decrease significantly, but the validation loss has started to increase. Which of the following is the most appropriate next step?",
+            "questionType": "Multiple Choice",
+            "options": [
+                {
+                    "text": "Implement dropout or early stopping.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Increase the learning rate.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Add more layers to the neural network.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Remove regularization terms from the loss function.",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "The Softmax function is given by $$ \\sigma(\\mathbf{z})_i = \\frac{e^{z_i}}{\\sum_{j=1}^{K} e^{z_j}} $$ and ensures that the output vector sums to $1$.",
+            "questionType": "True or False",
+            "options": [
+                {
+                    "text": "True",
+                    "isCorrect": true
+                },
+                {
+                    "text": "False",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "The _____ algorithm is the primary method used to compute the gradient of the loss function with respect to the weights of the network.",
+            "questionType": "Fill in the Blanks",
+            "options": [
+                {
+                    "text": "backpropagation",
+                    "isCorrect": true
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "Based on the hyperparameter search results for a neural network training run shown in the table, which configuration is most likely suffering from a learning rate that is too high, preventing convergence?",
+            "questionType": "Multiple Choice",
+            "options": [
+                {
+                    "text": "Configuration B",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Configuration A",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Configuration C",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Configuration D",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": [
+                [
+                    "Config",
+                    "Learning Rate",
+                    "Batch Size",
+                    "Final Training Loss",
+                    "Final Validation Loss"
+                ],
+                [
+                    "A",
+                    "0.001",
+                    "32",
+                    "0.21",
+                    "0.25"
+                ],
+                [
+                    "B",
+                    "0.1",
+                    "64",
+                    "2.50",
+                    "2.55"
+                ],
+                [
+                    "C",
+                    "0.0001",
+                    "32",
+                    "0.85",
+                    "0.88"
+                ],
+                [
+                    "D",
+                    "0.001",
+                    "128",
+                    "0.28",
+                    "0.32"
+                ]
+            ]
+        },
+        {
+            "questionText": "For a loss function $L$, weight $w$, and learning rate $\\eta$, the standard gradient descent update rule is written as $w \\leftarrow w - \\eta \\frac{\\partial L}{\\partial w}$. The term $\\frac{\\partial L}{\\partial w}$ represents the _____ of the loss with respect to the weight.",
+            "questionType": "Fill in the Blanks",
+            "options": [
+                {
+                    "text": "gradient",
+                    "isCorrect": true
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "In a Recurrent Neural Network (RNN), Long Short-Term Memory (LSTM) cells solve the vanishing gradient problem primarily by introducing a forget gate, an input gate, and an output gate that regulate the flow of information.",
+            "questionType": "True or False",
+            "options": [
+                {
+                    "text": "True",
+                    "isCorrect": true
+                },
+                {
+                    "text": "False",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "A financial institution wants to detect fraudulent credit card transactions in real-time. The dataset is heavily imbalanced (0.1% fraud). You deploy a deep neural network, but it simply predicts 'not fraud' for every transaction. Which architectural or procedural modification would best address this specific issue?",
+            "questionType": "Multiple Choice",
+            "options": [
+                {
+                    "text": "Modify the loss function to heavily penalize false negatives using weighted cross-entropy.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Switch the activation functions in the hidden layers from ReLU to Sigmoid.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Increase the batch size to the maximum memory limit of the GPU.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Use Mean Squared Error (MSE) instead of Binary Cross-Entropy.",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "In weight initialization methods, _____ initialization draws weights from a distribution with variance scaled by $1/n_{in}$, keeping the variance of the pre-activation outputs constant across layers, particularly suitable for sigmoid or tanh activations.",
+            "questionType": "Fill in the Blanks",
+            "options": [
+                {
+                    "text": "Xavier",
+                    "isCorrect": true
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "You are analyzing the weight gradients of a 4-layer fully connected network (Layer 1 is closest to input, Layer 4 is output) during the early stages of training. Given the gradient magnitudes in the table below, which mathematical issue is the network most likely experiencing?",
+            "questionType": "Multiple Choice",
+            "options": [
+                {
+                    "text": "Vanishing gradient problem.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Exploding gradient problem.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Internal covariate shift.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Dead ReLU problem.",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": [
+                [
+                    "Layer",
+                    "Average Gradient Magnitude $||\\nabla_{W^{(l)}} L||$"
+                ],
+                [
+                    "Layer 4",
+                    "$1.2 \\times 10^{-1}$"
+                ],
+                [
+                    "Layer 3",
+                    "$3.5 \\times 10^{-3}$"
+                ],
+                [
+                    "Layer 2",
+                    "$8.1 \\times 10^{-6}$"
+                ],
+                [
+                    "Layer 1",
+                    "$4.2 \\times 10^{-9}$"
+                ]
+            ]
+        },
+        {
+            "questionText": "You are training an NLP model using a Transformer architecture. To handle input sequences of varying lengths and provide the model with a sense of word order, you must inject absolute or relative positional encodings into the input embeddings because self-attention mechanisms are inherently permutation-invariant.",
+            "questionType": "True or False",
+            "options": [
+                {
+                    "text": "True",
+                    "isCorrect": true
+                },
+                {
+                    "text": "False",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "A convolutional layer has an input volume of $32 \\times 32 \\times 3$, a filter size of $5 \\times 5$, a stride of 1, and no zero-padding. The spatial dimension (width or height) of the output volume will be _____.",
+            "questionType": "Fill in the Blanks",
+            "options": [
+                {
+                    "text": "28",
+                    "isCorrect": true
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "A self-driving car team is training a semantic segmentation network. They notice that small but critical objects like distant pedestrians are frequently missed, while the background road is classified perfectly. Which strategy is most effective to improve the segmentation of these small objects?",
+            "questionType": "Multiple Choice",
+            "options": [
+                {
+                    "text": "Implement a Focal Loss or Dice Loss to shift focus to harder, less frequent pixels.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Reduce the input resolution of the images to speed up training.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Remove skip connections to force the network to learn higher-level features.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Apply global average pooling at the end of the network.",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "_____ normalization normalizes the inputs of a layer for each given example in a mini-batch, computing the mean and variance across the spatial and channel dimensions independently for each item in the batch.",
+            "questionType": "Fill in the Blanks",
+            "options": [
+                {
+                    "text": "Layer",
+                    "isCorrect": true
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "Evaluate the confusion matrices for four different neural network binary classifiers evaluating a rare disease where $Positive = Disease$. If the cost of a False Negative (missing the disease) is exponentially higher than a False Positive (false alarm), which model should be chosen?",
+            "questionType": "Multiple Choice",
+            "options": [
+                {
+                    "text": "Model Beta",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Model Alpha",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Model Gamma",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Model Delta",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": [
+                [
+                    "Model",
+                    "True Positives (TP)",
+                    "False Positives (FP)",
+                    "False Negatives (FN)",
+                    "True Negatives (TN)"
+                ],
+                [
+                    "Model Alpha",
+                    "85",
+                    "10",
+                    "15",
+                    "890"
+                ],
+                [
+                    "Model Beta",
+                    "98",
+                    "150",
+                    "2",
+                    "750"
+                ],
+                [
+                    "Model Gamma",
+                    "60",
+                    "5",
+                    "40",
+                    "895"
+                ],
+                [
+                    "Model Delta",
+                    "75",
+                    "50",
+                    "25",
+                    "850"
+                ]
+            ]
+        },
+        {
+            "questionText": "Given the cost function $J(\\theta)$, the Adam optimization algorithm updates parameters using first-order and second-order moment estimates. The update rule incorporates an exponentially decaying average of past squared gradients $v_t$, effectively providing an adaptive learning rate for each parameter.",
+            "questionType": "True or False",
+            "options": [
+                {
+                    "text": "True",
+                    "isCorrect": true
+                },
+                {
+                    "text": "False",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "In the Transformer attention mechanism given by $$\\text{Attention}(Q, K, V) = \\text{softmax}\\left(\\frac{QK^T}{\\sqrt{d_k}}\\right)V$$, the scaling factor $\\frac{1}{\\sqrt{d_k}}$ is used to prevent the dot products from growing too large and pushing the softmax function into regions with extremely small _____.",
+            "questionType": "Fill in the Blanks",
+            "options": [
+                {
+                    "text": "gradients",
+                    "isCorrect": true
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "You are tasked with migrating a legacy Recurrent Neural Network (RNN) language model to a modern Transformer architecture. The RNN processed tokens sequentially, scaling linearly with sequence length $O(N)$. For the self-attention mechanism in the new Transformer, how does the computational complexity scale with respect to the sequence length $N$?",
+            "questionType": "Multiple Choice",
+            "options": [
+                {
+                    "text": "Quadratically, $O(N^2 \\cdot d)$",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Linearly, $O(N \\cdot d^2)$",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Logarithmically, $O(N \\log N \\cdot d)$",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Exponentially, $O(2^N \\cdot d)$",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "The _____ Approximation Theorem states that a feed-forward network with a single hidden layer containing a finite number of neurons can approximate continuous functions on compact subsets of $\\mathbb{R}^n$, under mild assumptions on the activation function.",
+            "questionType": "Fill in the Blanks",
+            "options": [
+                {
+                    "text": "Universal",
+                    "isCorrect": true
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "Consider the Hessian matrix $\\mathbf{H}$ of the loss function with respect to the parameters in a neural network. If the training process reaches a critical point where $\\nabla_{\\theta} L = 0$, but the Hessian matrix has both positive and negative eigenvalues, this critical point is mathematically defined as a:",
+            "questionType": "Multiple Choice",
+            "options": [
+                {
+                    "text": "Saddle point",
+                    "isCorrect": true
+                },
+                {
+                    "text": "Global minimum",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Local maximum",
+                    "isCorrect": false
+                },
+                {
+                    "text": "Global maximum",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "In Generative Adversarial Networks (GANs), the objective function for the discriminator $D$ and generator $G$ is a minimax game represented by $$\\min_G \\max_D V(D, G) = \\mathbb{E}_{x \\sim p_{data}(x)}[\\log D(x)] + \\mathbb{E}_{z \\sim p_z(z)}[\\log (1 - D(G(z)))]$$. When the generator perfectly replicates the data distribution ($p_g = p_{data}$), the output of the optimal discriminator $D^*(x)$ evaluates to _____.",
+            "questionType": "Fill in the Blanks",
+            "options": [
+                {
+                    "text": "0.5",
+                    "isCorrect": true
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        },
+        {
+            "questionText": "In a Deep Q-Network (DQN) used for reinforcement learning, the algorithm utilizes a target network with weights $\\theta^-$ to compute the target $Y_t = R_{t+1} + \\gamma \\max_a Q(S_{t+1}, a; \\theta^-)$. What is the primary mathematical reason for using $\\theta^-$ instead of the continuously updating weights $\\theta$?",
+            "questionType": "Multiple Choice",
+            "options": [
+                {
+                    "text": "It decorrelates the target from the current parameters, preventing the target values from shifting constantly and stabilizing the temporal difference updates.",
+                    "isCorrect": true
+                },
+                {
+                    "text": "It ensures that the action chosen during the evaluation phase is strictly deterministic and optimal.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "It removes the need for experience replay by implicitly storing past trajectories in the delayed weights.",
+                    "isCorrect": false
+                },
+                {
+                    "text": "It mathematically guarantees convergence to the global optimum of the Bellman equation.",
+                    "isCorrect": false
+                }
+            ],
+            "attachedImages": [],
+            "tableData": null
+        }
+    ]
+}

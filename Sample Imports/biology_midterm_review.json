@@ -1,0 +1,553 @@
+{
+  "title": "Advanced Biology Midterm Review",
+  "description": "A comprehensive assessment covering cellular biology, genetics, ecology, and metabolic pathways featuring situational analysis and mathematical expressions.",
+  "category": "Science",
+  "difficulty": "Medium",
+  "quizType": "Mixed",
+  "timerMinutes": 60,
+  "questions": [
+    {
+      "questionText": "In a population under Hardy-Weinberg equilibrium, the frequency of the recessive allele is represented by $q = 0.3$. What is the expected frequency of the heterozygous genotype ($2pq$)?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {
+          "text": "0.09",
+          "isCorrect": false
+        },
+        {
+          "text": "0.42",
+          "isCorrect": true
+        },
+        {
+          "text": "0.49",
+          "isCorrect": false
+        },
+        {
+          "text": "0.21",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A patient is admitted to the hospital with a severe fever reaching $41^\\circ\\text{C}$ ($105.8^\\circ\\text{F}$). At the molecular level, what is the most immediate risk to the patient's metabolic processes?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {
+          "text": "The activation energy ($\\Delta G^\\ddagger$) of all metabolic reactions will drop to zero.",
+          "isCorrect": false
+        },
+        {
+          "text": "Essential metabolic enzymes will lose their tertiary structure and denature.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cell membranes will freeze and become completely impermeable.",
+          "isCorrect": false
+        },
+        {
+          "text": "Glycolysis will rapidly reverse and produce excess glucose molecules.",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Enzymes catalyze biochemical reactions by increasing the total Gibbs free energy change ($\\Delta G$) of the system.",
+      "questionType": "True or False",
+      "options": [
+        {
+          "text": "True",
+          "isCorrect": false
+        },
+        {
+          "text": "False",
+          "isCorrect": true
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The cellular process by which a cell engulfs large, solid particles or whole cells using its membrane is known as _____.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {
+          "text": "phagocytosis",
+          "isCorrect": true
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Based on the tracking data provided in the table below, how many net molecules of $ATP$ are produced directly in the cytoplasm from the breakdown of one single molecule of glucose?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {
+          "text": "2 $ATP$",
+          "isCorrect": true
+        },
+        {
+          "text": "4 $ATP$",
+          "isCorrect": false
+        },
+        {
+          "text": "32 $ATP$",
+          "isCorrect": false
+        },
+        {
+          "text": "0 $ATP$",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": [
+        [
+          "Stage of Respiration",
+          "Location in Cell",
+          "Primary Carbon Output"
+        ],
+        [
+          "Glycolysis",
+          "Cytoplasm",
+          "2 Pyruvate ($3\\text{C}$)"
+        ],
+        [
+          "Krebs Cycle",
+          "Mitochondrial Matrix",
+          "4 $CO_2$ ($1\\text{C}$)"
+        ]
+      ]
+    },
+    {
+      "questionText": "A plant cell with an internal water potential of $\\Psi = -0.3\\text{ MPa}$ is placed in a beaker containing a sucrose solution with a water potential of $\\Psi = -0.8\\text{ MPa}$. Which of the following describes the net movement of water?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {
+          "text": "Water will move out of the cell, causing plasmolysis.",
+          "isCorrect": true
+        },
+        {
+          "text": "Water will move into the cell, causing it to lyse.",
+          "isCorrect": false
+        },
+        {
+          "text": "There will be no net movement of water because the system is at equilibrium.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sucrose molecules will actively pump into the cell until $\\Psi = 0$.",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Semi-conservative DNA replication occurs during the $G_2$ phase of the eukaryotic cell cycle.",
+      "questionType": "True or False",
+      "options": [
+        {
+          "text": "True",
+          "isCorrect": false
+        },
+        {
+          "text": "False",
+          "isCorrect": true
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The primary photosynthetic pigment located within the thylakoid membranes that absorbs blue-violet and red light is _____.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {
+          "text": "chlorophyll",
+          "isCorrect": true
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Consider a model cell shaped like a perfect cube where the side length is $s = 2\\text{ }\\mu\\text{m}$. Calculate its surface area-to-volume ratio ($SA:V$).",
+      "questionType": "Multiple Choice",
+      "options": [
+        {
+          "text": "$6\\text{ }\\mu\\text{m}^{-1}$",
+          "isCorrect": false
+        },
+        {
+          "text": "$3\\text{ }\\mu\\text{m}^{-1}$",
+          "isCorrect": true
+        },
+        {
+          "text": "$1.5\\text{ }\\mu\\text{m}^{-1}$",
+          "isCorrect": false
+        },
+        {
+          "text": "$2\\text{ }\\mu\\text{m}^{-1}$",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "An agricultural ecosystem experiences heavy fertilizer runoff into a local freshwater lake. What is the most likely long-term situational outcome for the fish population in that lake ecosystem?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {
+          "text": "Fish populations will increase exponentially due to an abundance of chemical nutrients.",
+          "isCorrect": false
+        },
+        {
+          "text": "Algal blooms will consume oxygen during decomposition, causing mass fish suffocation.",
+          "isCorrect": true
+        },
+        {
+          "text": "The water will become a hypotonic solution, causing the fish cells to shrivel.",
+          "isCorrect": false
+        },
+        {
+          "text": "The rate of carbon fixation ($CO_2$) by the fish will double.",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The metabolic reactions of the citric acid cycle (Krebs cycle) take place within the inner mitochondrial membrane.",
+      "questionType": "True or False",
+      "options": [
+        {
+          "text": "True",
+          "isCorrect": false
+        },
+        {
+          "text": "False",
+          "isCorrect": true
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The specialized, functional unit of the human kidney responsible for blood filtration and urine concentration is the _____.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {
+          "text": "nephron",
+          "isCorrect": true
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "If a sample of double-stranded DNA is analyzed and found to contain $30\\%$ adenine ($A$), what percentage of the nitrogenous bases in this sample must be guanine ($G$)?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {
+          "text": "30%",
+          "isCorrect": false
+        },
+        {
+          "text": "20%",
+          "isCorrect": true
+        },
+        {
+          "text": "40%",
+          "isCorrect": false
+        },
+        {
+          "text": "70%",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A laboratory mutation alters a codon sequence in an mRNA strand from 5'-AUG-3' to 5'-AUC-3'. Given that 5'-AUG-3' specifies Methionine (the start signal) and 5'-AUC-3' specifies Isoleucine, what type of point mutation has occurred?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {
+          "text": "Silent mutation",
+          "isCorrect": false
+        },
+        {
+          "text": "Nonsense mutation",
+          "isCorrect": false
+        },
+        {
+          "text": "Missense mutation",
+          "isCorrect": true
+        },
+        {
+          "text": "Frameshift mutation",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "According to the $10\\%$ ecological rule of energy transfer, approximately $90\\%$ of the energy at any trophic level is lost as metabolic heat or undigested waste.",
+      "questionType": "True or False",
+      "options": [
+        {
+          "text": "True",
+          "isCorrect": true
+        },
+        {
+          "text": "False",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The biological mechanism by which an organism maintains a stable internal environment despite fluctuating external factors is called _____.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {
+          "text": "homeostasis",
+          "isCorrect": true
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A patient requires an emergency packed red blood cell transfusion. Based on the immunological interaction matrix provided below, which blood type can safely be administered to a patient with Type O blood?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {
+          "text": "Type A only",
+          "isCorrect": false
+        },
+        {
+          "text": "Type AB only",
+          "isCorrect": false
+        },
+        {
+          "text": "Type O only",
+          "isCorrect": true
+        },
+        {
+          "text": "Any type (A, B, AB, or O)",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": [
+        [
+          "Blood Type",
+          "Antigen Present on RBC",
+          "Antibodies Present in Plasma"
+        ],
+        [
+          "A",
+          "A Antigen",
+          "Anti-B"
+        ],
+        [
+          "B",
+          "B Antigen",
+          "Anti-A"
+        ],
+        [
+          "AB",
+          "A and B Antigens",
+          "None"
+        ],
+        [
+          "O",
+          "None",
+          "Anti-A and Anti-B"
+        ]
+      ]
+    },
+    {
+      "questionText": "An experimental cancer drug is designed to completely prevent the polymerization of spindle microfilaments and microtubules. If applied to a culture of dividing mammalian cells, which phase of mitosis will be directly halted?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {
+          "text": "Prophase/Metaphase transition",
+          "isCorrect": true
+        },
+        {
+          "text": "Telophase",
+          "isCorrect": false
+        },
+        {
+          "text": "G1 Interphase",
+          "isCorrect": false
+        },
+        {
+          "text": "Cytokinesis",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Anaerobic respiration (fermentation) produces a higher net yield of $ATP$ per molecule of glucose than aerobic cellular respiration.",
+      "questionType": "True or False",
+      "options": [
+        {
+          "text": "True",
+          "isCorrect": false
+        },
+        {
+          "text": "False",
+          "isCorrect": true
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The gaseous phytohormone responsible for stimulating fruit ripening and promoting leaf abscission is _____.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {
+          "text": "ethylene",
+          "isCorrect": true
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "An isolated terrestrial ecosystem receives a net primary productivity of $10,000\\text{ kcal/m}^2/\\text{year}$ at the primary producer level. Following Lindeman's law of trophic efficiency ($10\\%$ transfer), how much energy is available to secondary consumers?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {
+          "text": "$1,000\\text{ kcal/m}^2/\\text{year}$",
+          "isCorrect": false
+        },
+        {
+          "text": "$100\\text{ kcal/m}^2/\\text{year}$",
+          "isCorrect": true
+        },
+        {
+          "text": "$10\\text{ kcal/m}^2/\\text{year}$",
+          "isCorrect": false
+        },
+        {
+          "text": "$9,000\\text{ kcal/m}^2/\\text{year}$",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "You are tracking the growth of a bacterial population in a batch culture setup with limited nutrient supplies. Over time, the exponential phase ends and the growth curve flattens out into a plateau. This stabilization signifies that the population has reached its _____.",
+      "questionType": "Multiple Choice",
+      "options": [
+        {
+          "text": "Biotic potential",
+          "isCorrect": false
+        },
+        {
+          "text": "Carrying capacity",
+          "isCorrect": true
+        },
+        {
+          "text": "Logarithmic decay parameter",
+          "isCorrect": false
+        },
+        {
+          "text": "Thermal death point",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Translation is the specific molecular process where an RNA nucleotide sequence is synthesized directly from a template strand of DNA.",
+      "questionType": "True or False",
+      "options": [
+        {
+          "text": "True",
+          "isCorrect": false
+        },
+        {
+          "text": "False",
+          "isCorrect": true
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "The specialized epidermal cell type that controls the opening and closing of stomatal pores to regulate plant transpiration is the _____ cell.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {
+          "text": "guard",
+          "isCorrect": true
+        }
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Using the comparative cell division matrix below, determine the final chromosome count in a human daughter cell produced via Meiosis if the starting somatic parent cell has a diploid count of $2n = 46$.",
+      "questionType": "Multiple Choice",
+      "options": [
+        {
+          "text": "46 chromosomes",
+          "isCorrect": false
+        },
+        {
+          "text": "23 chromosomes",
+          "isCorrect": true
+        },
+        {
+          "text": "92 chromosomes",
+          "isCorrect": false
+        },
+        {
+          "text": "11.5 chromosomes",
+          "isCorrect": false
+        }
+      ],
+      "attachedImages": [],
+      "tableData": [
+        [
+          "Feature Category",
+          "Mitosis Process",
+          "Meiosis Process"
+        ],
+        [
+          "Number of Divisions",
+          "1 Division",
+          "2 Divisions"
+        ],
+        [
+          "Final Daughter Cells",
+          "2 Cells",
+          "4 Cells"
+        ],
+        [
+          "Ploidy Level",
+          "Diploid ($2n$)",
+          "Haploid ($n$)"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "title": "Machine Learning Quiz",
+  "description": "A 25-item mixed quiz covering core Machine Learning concepts including Bayesian Networks, inference methods, sampling techniques, model evaluation, and applied problem-solving. Difficulty increases progressively from item 1 to 25.",
+  "category": "Machine Learning",
+  "difficulty": "Medium",
+  "quizType": "Mixed",
+  "timerMinutes": 35,
+  "questions": [
+    {
+      "questionText": "What does ML stand for in the context of Artificial Intelligence?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Machine Learning", "isCorrect": true},
+        {"text": "Model Logic", "isCorrect": false},
+        {"text": "Multilayer Linguistics", "isCorrect": false},
+        {"text": "Mechanical Layering", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "In supervised learning, the model is trained using labeled data.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "_____ learning is the type of machine learning where the algorithm learns patterns from unlabeled data without explicit guidance.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Unsupervised", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Which of the following best describes a Bayesian Network?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "A directed acyclic graph representing conditional independence among random variables", "isCorrect": true},
+        {"text": "A neural network that uses Bayesian optimization for weight updates", "isCorrect": false},
+        {"text": "An undirected graph where all nodes are equally dependent", "isCorrect": false},
+        {"text": "A cyclic graph where each node holds a uniform probability distribution", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "In a Bayesian Network, each node stores a _____ that defines the probability of that variable given its parent nodes.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Conditional Probability Table (CPT)", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A Bayesian Network is a Directed Acyclic Graph (DAG), meaning it can contain cycles as long as probabilities sum to 1.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": false},
+        {"text": "False", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Given the joint probability formula for a Bayesian Network: $$P(X_1, \\ldots, X_n) = \\prod_{i=1}^{n} P(X_i \\mid \\text{parents}(X_i))$$ which property does this formula exploit?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Conditional independence", "isCorrect": true},
+        {"text": "Marginal uniformity", "isCorrect": false},
+        {"text": "Joint normalization", "isCorrect": false},
+        {"text": "Bayesian conjugacy", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "You are analyzing a weather prediction model. The table below shows a CPT for the Rain variable given its parent node Cloudy. A new sample is generated where Cloudy = True. What is the probability that Rain = True?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$P(\\text{Rain}=T \\mid \\text{Cloudy}=T) = 0.80$", "isCorrect": true},
+        {"text": "$P(\\text{Rain}=T \\mid \\text{Cloudy}=T) = 0.20$", "isCorrect": false},
+        {"text": "$P(\\text{Rain}=T \\mid \\text{Cloudy}=T) = 0.40$", "isCorrect": false},
+        {"text": "$P(\\text{Rain}=T \\mid \\text{Cloudy}=T) = 0.60$", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Cloudy", "P(Rain = True)", "P(Rain = False)"],
+        ["True", "0.80", "0.20"],
+        ["False", "0.20", "0.80"]
+      ]
+    },
+    {
+      "questionText": "The _____ is the variable in a Bayesian Network query that you want to find the probability of, given some observed evidence.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Query Variable", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "In machine learning, overfitting occurs when a model performs well on training data but poorly on unseen test data.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A data scientist is building a spam classifier. She has 10,000 emails — 9,500 are legitimate and 500 are spam. After training a model, it classifies every email as legitimate and achieves 95% accuracy. Which problem does this scenario best illustrate?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Class imbalance leading to a misleading accuracy metric", "isCorrect": true},
+        {"text": "Overfitting to the spam class", "isCorrect": false},
+        {"text": "Underfitting due to insufficient training data", "isCorrect": false},
+        {"text": "High variance in the model's predictions", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "For a Boolean variable with $K$ Boolean parents in a Bayesian Network, how many rows does its Conditional Probability Table (CPT) contain?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "$2^K$", "isCorrect": true},
+        {"text": "$K^2$", "isCorrect": false},
+        {"text": "$2K$", "isCorrect": false},
+        {"text": "$K!$", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "In Exact Inference by Enumeration for a Bayesian Network, the _____ variables are those in the network that are neither query variables nor observed evidence.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Hidden (Unobserved)", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Refer to the CPT sizes table below for the Burglary Network (B, E, A, J, M). What is the total number of independent parameters required by the Bayesian Network representation?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "10", "isCorrect": true},
+        {"text": "31", "isCorrect": false},
+        {"text": "32", "isCorrect": false},
+        {"text": "16", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Variable", "Parents", "CPT Size"],
+        ["Burglary (B)", "None", "1"],
+        ["Earthquake (E)", "None", "1"],
+        ["Alarm (A)", "B, E", "4"],
+        ["JohnCalls (J)", "A", "2"],
+        ["MaryCalls (M)", "A", "2"]
+      ]
+    },
+    {
+      "questionText": "Direct Sampling in a Bayesian Network starts by sampling the _____ nodes — those with no parent variables.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Root", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "Rejection Sampling generates a correct approximation of conditional probabilities by only keeping samples that match the observed evidence.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": true},
+        {"text": "False", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "An engineer uses Rejection Sampling to estimate $P(J \\mid \\text{Earthquake}=T)$ in a large network. After generating 50,000 samples, only 100 contain Earthquake = True. What is the primary drawback being demonstrated here?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Extreme computational waste caused by discarding the majority of samples due to rare evidence", "isCorrect": true},
+        {"text": "The model fails to converge because the network has cycles", "isCorrect": false},
+        {"text": "The posterior probability cannot be computed for rare events in any sampling method", "isCorrect": false},
+        {"text": "Rejection Sampling cannot handle Boolean variables in the network", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "_____ Weighting solves the inefficiency of Rejection Sampling by fixing evidence variables and assigning a weight to each sample instead of discarding it.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Likelihood", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A research team compares three approximate inference methods on a complex Bayesian Network. The table below summarizes their properties. Based on the data, which method is most suitable when evidence is extremely rare and computational efficiency is critical?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Likelihood Weighting", "isCorrect": true},
+        {"text": "Rejection Sampling", "isCorrect": false},
+        {"text": "Exact Enumeration", "isCorrect": false},
+        {"text": "Direct Sampling", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Method", "Handles Rare Evidence", "Discards Samples", "Scalability"],
+        ["Rejection Sampling", "Poor", "Yes (majority)", "Low"],
+        ["Likelihood Weighting", "Good", "No", "High"],
+        ["Exact Enumeration", "Perfect", "N/A", "Very Low"],
+        ["Direct Sampling", "N/A (no evidence)", "No", "Medium"]
+      ]
+    },
+    {
+      "questionText": "In the Markov Chain Monte Carlo (MCMC) method, the next sample is generated by making a small random change to the _____ sample rather than starting from scratch.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Previous", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "In MCMC, the set of a variable's parents, children, and children's other parents in a Bayesian Network is called its:",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Markov Blanket", "isCorrect": true},
+        {"text": "Conditional Kernel", "isCorrect": false},
+        {"text": "Prior Boundary", "isCorrect": false},
+        {"text": "Evidence Frontier", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "When building a Bayesian Network using machine learning from data, the Conditional Probability Tables (CPTs) are filled by computing exact symbolic integrals over the dataset.",
+      "questionType": "True or False",
+      "options": [
+        {"text": "True", "isCorrect": false},
+        {"text": "False", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A medical AI system is built to diagnose pneumonia. The table below shows performance results across four models evaluated on a held-out test set. Considering both precision and recall are equally important (use the $F_1$ score as a guide), which model should be selected for deployment? Recall that $$F_1 = 2 \\cdot \\frac{\\text{Precision} \\times \\text{Recall}}{\\text{Precision} + \\text{Recall}}$$",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "Model C — it achieves the highest $F_1$ score of approximately 0.87", "isCorrect": true},
+        {"text": "Model A — it has the highest precision of 0.95", "isCorrect": false},
+        {"text": "Model B — it has the highest recall of 0.96", "isCorrect": false},
+        {"text": "Model D — it has the most balanced individual scores", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": [
+        ["Model", "Precision", "Recall", "Accuracy"],
+        ["Model A", "0.95", "0.70", "0.88"],
+        ["Model B", "0.72", "0.96", "0.85"],
+        ["Model C", "0.88", "0.86", "0.91"],
+        ["Model D", "0.80", "0.80", "0.89"]
+      ]
+    },
+    {
+      "questionText": "In a Bayesian Network used for exact inference, a variable can be pruned from the computation if it is not an _____ of the query variable or any evidence variable.",
+      "questionType": "Fill in the Blanks",
+      "options": [
+        {"text": "Ancestor", "isCorrect": true}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    },
+    {
+      "questionText": "A financial fraud detection system uses a Bayesian Network with 20 Boolean variables, each with at most 3 Boolean parents. Compare the storage requirement of the full joint distribution against the Bayesian Network. Using the compactness formula $O(n \\cdot 2^k)$ for the network and $O(2^n)$ for the full joint, which statement is correct when $n=20$ and $k=3$?",
+      "questionType": "Multiple Choice",
+      "options": [
+        {"text": "The Bayesian Network requires $O(20 \\cdot 8) = 160$ numbers, far fewer than the full joint's $2^{20} = 1{,}048{,}576$ entries", "isCorrect": true},
+        {"text": "The full joint distribution requires $O(20 \\cdot 8) = 160$ numbers", "isCorrect": false},
+        {"text": "Both representations require exactly $2^{20}$ entries due to the chain rule", "isCorrect": false},
+        {"text": "The Bayesian Network requires $20^3 = 8{,}000$ entries, which is still larger than the full joint", "isCorrect": false}
+      ],
+      "attachedImages": [],
+      "tableData": null
+    }
+  ]
+}
