@@ -69,9 +69,6 @@ Prefer making your own? The quiz editor lets you:
 ## 🚀 Getting Started
 
 > **Requirements:** Windows 10 or later. Mac and Linux are not currently supported.
-
-1. Make sure you have the [Flutter SDK](https://flutter.dev/) installed
-2. Run `flutter run` from the project folder
-3. Use the **Prompt Builder** to generate your first quiz, or create one from scratch in the **Editor**
-4. *(Optional)* Upload your lecture notes via the RAG system to generate quizzes from your own material
-5. Create folders in the sidebar to organize by subject — and start studying!
+1. Use the **Prompt Builder** to generate your first quiz, or create one from scratch in the **Editor**
+2. *(Optional)* Upload your lecture notes via the RAG system to generate quizzes from your own material
+3. Create folders in the sidebar to organize by subject — and start studying!
